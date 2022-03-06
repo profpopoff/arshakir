@@ -1,0 +1,42 @@
+.business {
+   width: 100%;
+}
+.business__container {
+   padding-top: max(0px, min(50px, calc(100vw * 4 / 75)));
+   display: flex;
+   justify-content: space-evenly;
+   position: relative;
+}
+.business__bg {
+   position: absolute;
+   right: -194px;
+   bottom: -10%;
+   transform: scale(0.95);
+   z-index: 0;
+}
+.business__info {
+   width: 470px;
+   min-height: 280px;
+   padding-top: 48px;
+   padding-left: 15px;
+}
+.business__title {margin-bottom: max(10px, min(30px, calc(100vw * 4 / 75)));}
+.business__text {
+   font-family: 'Gilroy-SemiBold',sans-serif;
+   font-size: 15px;
+   line-height: max(22px, min(28px, calc(100vw * 4 / 75)));
+   letter-spacing: 0.5px;
+   color: var(--t1-color);
+   margin-bottom: max(10px, min(47px, calc(100vw * 4 / 75)));
+}
+.business__button {
+   height: 54px;
+   width: 155px;
+   /* margin-bottom: 30px; */
+}
+.business__img {
+   height: 403px;
+   width: 414px;
+   margin: auto 0px;
+   z-index: 1;
+}

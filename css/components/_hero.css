@@ -1,0 +1,124 @@
+.hero {
+    width: 100%;
+    background: linear-gradient(200deg, #3B1D60 20%, #040D3E 55%);
+}
+.hero__container {
+    padding-top:  max(74px, min(250px, calc(100vw * 14 / 75)));
+    position: relative;
+}
+.hero__container::after {
+    content: "";
+    position: absolute;
+    width: 723.71px;
+    height: 579.57px;
+    top: 220px;
+    left: 49%;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-image: url('../../img/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__title {
+    position: relative;
+    font-size: max(30px, min(44px, calc(100vw * 4 / 75)));
+    max-width: 530px;
+    margin-bottom: 20px;
+}
+.hero__text {
+    position: relative;
+    max-width: 468px;
+    font-family: 'Gilroy-SemiBold',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--t1-color);
+    margin-bottom: 40px;
+    z-index: 3;
+}
+.hero__buttons {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    max-width: 358px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+}
+.hero__button {
+    width: 157px;
+    height: 46px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
+.hero__video {
+    position: relative;
+    z-index: 2;
+    max-width: 540px;
+    height: auto;
+    display: flex;
+    margin-bottom: 7vw;
+}
+@media (min-width: 1441px) {.hero__video {margin-bottom: 100px;}}
+.hero__video--video {
+    min-width: 140px;
+    height: 80px;
+    background: #361C5D;
+    border-radius: 4px;
+    position: relative;
+    margin-right: 20px;
+}
+.video__icon {
+    position: absolute;
+    inset: 0;
+}
+.video__icon::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../../img/svg/Play.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transition: all 0.1s ease-in-out;
+}
+.video__descr {max-width: 380px;}
+.video__descr--text {
+    margin-bottom: 10px;
+}
+.video__text {
+    font-family: 'Rubik-Regular',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--t1-color);
+    transition: all 0.15s ease-in-out;
+}
+.video__link {
+    font-family: 'Rubik-Regular',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6D6D78;
+}
+.hero__sponsors {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 3vw;
+}
+@media (min-width: 1441px) {.hero__sponsors {margin-bottom: 45px;}}
+.hero__sponsor-logo {
+    height: 25px;
+    width: 117px;
+    opacity: 0.3;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    transition: all 0.15s ease-in-out;
+}
+
