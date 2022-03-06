@@ -1,0 +1,34 @@
+
+@media (pointer: fine) {
+   /* * header */
+   .menu__link:hover {color: var(--base-color);}
+   /* * hero */
+   .hero__video--video:hover > .video__icon::after{transform: scale(1.1);} 
+   .video__text:hover{color: #6f4d99;} 
+   .video__link:hover{text-decoration: underline;} 
+   .hero__sponsor-logo:hover {opacity: 0.6;}
+   /* * footer */
+   .footer__social-link:hover {
+      background: var(--base-color);
+      box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+   }
+   .item__link:hover {color: var(--base-color);}
+   .policy__item:hover {color: #c4c4c4;}
+   /* * mail */
+   .mail__field:target {
+      background: #202142;
+   }
+   /* * overall */
+   .btn-1:hover::after {transform: translate(0, 0);}
+	.btn-1:hover {
+		border: none;
+		color: #fff;
+		box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.1);
+	}
+   .btn-2:hover::after {transform: translate(100%,0) rotate(30deg);}
+	.btn-2:hover {
+		border: 1px solid var(--base-color);
+		color: var(--base-color);
+		box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.03);
+	}
+}

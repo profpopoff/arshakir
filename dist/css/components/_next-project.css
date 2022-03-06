@@ -1,0 +1,26 @@
+.next-project {
+   width: 100%;
+   padding-top: max(0px, min(160px, calc(100vw * 9 / 75)));
+}
+.next-project__container {
+   max-height: 520px;
+   background-image: url('../../img/next-project-bg.png');
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: auto;
+   position: relative;
+   padding-bottom: max(320px, min(420px, calc(100vw * 4 / 75)));
+}
+.next-project__title {
+   max-width: 770px;
+   margin: 0px auto;
+   text-align: center;
+   margin-bottom: 42px;
+}
+.next-project__button {
+   width: 164px;
+   height: 54px;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%, 0);
+}

@@ -1,0 +1,100 @@
+.mail {
+   width: 100%;
+   padding-top: max(0px, min(160px, calc(100vw * 12 / 75)));
+   background-image: url('../../img/mail-bg.png');
+   background-origin: content-box;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+.mail__container {
+   padding: max(0px, min(100px, calc(100vw * 12 / 75))) 15px;
+   max-width: 940px;
+   position: relative;
+}
+.mail__card {
+   background: rgba(60, 62, 125, 0.19);
+   backdrop-filter: blur(134px);
+   border-radius: 5px;
+   padding: 51px 0px;
+   z-index: 1;
+}
+.mail__title {
+   font-family: 'Rubik-Medium',sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: max(30px, min(36px, calc(100vw * 4 / 75)));
+   text-align: center;
+   margin-bottom: 19px;
+   padding: 0px 15px;
+}
+.mail__text {
+   max-width: 400px;
+   margin: 0px auto;
+   padding: 0px 15px;
+   font-family: 'Rubik-Regular',sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   text-align: center;
+   color: #95A1BB;
+   margin-bottom: 24px;
+}
+.mail__form {
+   display: flex;
+   margin: 0px auto;
+   width: 416px;
+   min-height: 56px;
+   margin-bottom: 15px;
+}
+.mail__field {
+   width: 70%;
+   padding: 0px 13px;
+   background: #303162;
+   border: none;
+   border-radius: 5px 0px 0px 5px;
+   font-family: 'Inter-Regular',sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   color: #fff;
+}
+.mail__field::-webkit-input-placeholder,
+.mail__field::-moz-placeholder,
+.mail__field:-moz-placeholder,
+.mail__field:-ms-input-placeholder {
+   font-family: 'Inter-Regular',sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   color: #fff;
+   opacity: 0.2;
+}
+.mail__field::-webkit-input-placeholder {transition: opacity 0.3s ease;}
+.mail__field::-moz-placeholder {transition: opacity 0.3s ease;}
+.mail__field:-moz-placeholder {transition: opacity 0.3s ease;}
+.mail__field:-ms-input-placeholder {transition: opacity 0.3s ease;}
+.mail__field:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.mail__field:focus::-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;}         
+.mail__field:focus:-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;}          
+.mail__field:focus:-ms-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.mail__btn {
+   width: 30%;
+   border-radius: 0px 5px 5px 0px;
+   box-shadow: none;
+}
+.mail__btn::after {border-radius: 0px 5px 5px 0px;}
+.mail__warning {
+   font-family: 'Gilroy-SemiBold',sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   color: var(--t1-color);
+   text-align: center;
+   padding: 0px 15px;
+}

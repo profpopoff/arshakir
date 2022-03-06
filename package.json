@@ -1,0 +1,16 @@
+{
+  "name": "arshakir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://profpopoff.github.io/arshakir",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

@@ -1,0 +1,35 @@
+.traffic {
+   width: 100%;
+}
+.traffic__container {
+   padding-top: max(0px, min(125px, calc(100vw * 7 / 75)));
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap-reverse;
+   position: relative;
+}
+.traffic__bg {
+   position: absolute;
+   left: -396px;
+   top: 327px;
+}
+.traffic__info {
+   width: 470px;
+   min-height: 280px;
+   padding-top: 58px;
+   padding-left: 15px;
+}
+.traffic__title {margin-bottom: max(10px, min(30px, calc(100vw * 4 / 75)))}
+.traffic__text {
+   font-family: 'Gilroy-SemiBold',sans-serif;
+   font-size: 15px;
+   line-height: max(14px, min(28px, calc(100vw * 4 / 75)));
+   letter-spacing: 0.5px;
+   color: var(--t1-color);
+   margin-bottom: max(10px, min(40px, calc(100vw * 4 / 75)));;
+}
+.traffic__button {
+   height: 48px;
+   width: 155px;
+}
+.traffic__img {margin-bottom: -70px;}
